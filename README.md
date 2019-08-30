@@ -3,7 +3,9 @@
 
 This file contains directions for how to [manually install RITA](https://github.com/activecm/rita/blob/master/docs/Manual%20Installation.md) on your personal computer. We recommend that you complete the installation on your own and only use this guide as a reference when needed. This tutorial is done using a MacOSX operating system. 
 
-#### Download Dependencies:
+---
+
+### Download Dependencies:
 In order for RITA to work, we must first install BRO/ZEEK and MongoDB. Open up your terminal window. 
 #### [Download BRO/ZEEK](https://docs.zeek.org/en/stable/install/install.html)
 1. To download BRO/ZEEK, we must install the required dependencies: 
