@@ -17,6 +17,10 @@ In order for RITA to work, we must first install BRO/ZEEK and MongoDB. Open up y
     - `make install`
     - If you run into any administrative issues, run the command `sudo make` or `sudo make install`. By using `sudo` you are forcing the ability of running commands at the root level of your computer's operating system. 
 
+#### [Download MongoDB](https://docs.mongodb.com/v3.6/administration/install-community/)
+Note that RITA reccomends using "MongoDB version is 3.6, but anything >= 3.2.0 and < 3.7.0 should work.". 
+    
+
 
 
 2. Download `keywords.txt` and label all data possible with the given regex commands.
