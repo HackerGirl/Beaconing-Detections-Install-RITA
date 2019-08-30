@@ -6,7 +6,7 @@ This file contains directions for how to [manually install RITA](https://github.
 #### Download Dependencies:
 In order for RITA to work, we must first install BRO/ZEEK and MongoDB. 
 * #### Download BRO/ZEEK:
-1. 
+    - Direction 1
 
 
 
