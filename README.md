@@ -27,3 +27,7 @@ Note that RITA reccomends using "MongoDB version is 3.6, but anything >= 3.2.0 a
 Let's take a note of the following comment "Ensure MongoDB is running before running RITA." To run MongoDB, run these commands:
 - `mongod --config /usr/local/etc/mongod.conf`
 - `Mongo`
+
+---
+
+### Download RITA:
