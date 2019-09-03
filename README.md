@@ -23,3 +23,7 @@ In order for RITA to work, we must first install BRO/ZEEK and MongoDB. Open up y
 Note that RITA reccomends using "MongoDB version is 3.6, but anything >= 3.2.0 and < 3.7.0 should work." To install MongoDB 3.6 follow these [installation instructions](https://docs.mongodb.com/v3.6/administration/install-community/). Now if you have MongoDB 4.2 installed, you have to follow these [downgrade instructions](https://docs.mongodb.com/manual/release-notes/4.0-downgrade-standalone/). 
 1. Install the required dependencies: `brew tap mongodb/brew`.
 2. To download MongoDB V3.6: `brew install mongodb-community@3.6`.    
+
+Let's take a note of the following comment "Ensure MongoDB is running before running RITA." To run MongoDB, run these commands:
+    - `mongod --config /usr/local/etc/mongod.conf`
+    - `Mongo`
