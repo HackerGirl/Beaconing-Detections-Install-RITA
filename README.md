@@ -75,3 +75,5 @@ At this point, we are now ready to build RITA! For this tutorial, we are going t
 #### Configuring the System
 - `sudo mkdir /etc/rita && sudo chmod 755 /etc/rita`
 - `sudo mkdir -p /var/lib/rita/logs && sudo chmod -R 755 /var/lib/rita`
+- `sudo cp Users/cshourabour/go/src/github.com/activecm/rita/etc/rita.yaml /etc/rita/config.yaml && sudo chmod 666 /etc/rita/config.yaml` 
+Note that above, I saved `go` within my home computers directory but the folder `etc`is at my top level directory. So 
