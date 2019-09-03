@@ -50,7 +50,11 @@ To check if the command lines have been added, type `vim .bashrc` to open up the
     - `brew upgrade dep`
 
 #### Generate Public/Private SSH Keys
-1. 
+1. Generate an ssh key: `ssh-keygen -t rsa`
+2. Press the ENTER key to accept the default location. The ssh-keygen utility prompts you for a passphrase.
+3. Type in a passphrase. You can also hit the ENTER key to accept the default (no passphrase). However, this is not recommended.
+
+Your private key is saved to the *id_rsa* file and your public key is saved to the *id_rsa.pub* file within the *.ssh* directory. You can check for your private and public key by typing in `cd .ssh` then `vim id_rsa` to view your private key and `vim id_rsa.pub` to view your public key. 
 
 
 ---
