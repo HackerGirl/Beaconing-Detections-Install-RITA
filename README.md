@@ -39,10 +39,9 @@ Let's take a note of the following comment "Ensure MongoDB is running before run
     - Create a local GO development environment: `mkdir -p $HOME/go/{src,pkg,bin}`
     - Add command lines into your *.bashrc* file as described in step 3:
       - `echo 'export GOPATH="$HOME/go"' >> $HOME/.bashrc`
-      - 
-    
-    
-    To check if the command lines have been added, type `vim .bashrc` to open up the file. If done properly, you should see `export GOPATH="$HOME/go"` and `export PATH="$PATH:$GOPATH/bin"` within the file. To exit, type `:exit`. 
+      - `echo 'export PATH="$PATH:$GOPATH/bin"' >> $HOME/.bashrc`
+      - `source $HOME/.bashrc`
+      -  To check if the command lines have been added, type `vim .bashrc` to open up the file. If done properly, you should see `export GOPATH="$HOME/go"` and `export PATH="$PATH:$GOPATH/bin"` within the file. To exit, type `:exit`. 
     
 #### [Download Dep](https://golang.github.io/dep/docs/installation.html)
 1. Follow the simple instructions:
