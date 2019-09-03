@@ -60,7 +60,7 @@ In order to access git, we need to add these keys within the *.gitconfig* file. 
 - `git config --global user.name "HackerGirl"`
 - `git config --global user.name "hackergirluniversity@gmail.com"`
 
-
+Finally, in your github account on the top right, click on your icon and go into settings. From settings, select *SSH and GPG Keys* and click *New SSH Key*. Copy and paste the key from the `id_rsa.pub` file into here and be sure to include *ssh-rsa* when copying over. 
 
 ---
 
