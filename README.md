@@ -73,3 +73,5 @@ At this point, we are now ready to build RITA! For this tutorial, we are going t
 - `sudo make install`
 
 #### Configuring the System
+- `sudo mkdir /etc/rita && sudo chmod 755 /etc/rita`
+- `sudo mkdir -p /var/lib/rita/logs && sudo chmod -R 755 /var/lib/rita`
