@@ -80,3 +80,6 @@ At this point, we are now ready to build RITA! For this tutorial, we are going t
  #### Check Installation 
  If RITA has been successfuly installed and configured properly then `rita test-config` will not throw an error and print an array of setting information. Remember to have MongoDB V3.6 running before you run the command.
   
+---
+
+### Configure RITA
