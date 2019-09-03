@@ -6,7 +6,8 @@ This file contains directions for how to [manually install RITA](https://github.
 ---
 
 ### Download Dependencies:
-In order for RITA to work, we must first install BRO/ZEEK and MongoDB. Open up your terminal window. 
+In order for RITA to work, we must first install BRO/ZEEK and MongoDB V3.6. Then for RITA to compile, we have to install Golang and Dep. Open up your terminal window. 
+
 #### [Download BRO/ZEEK](https://docs.zeek.org/en/stable/install/install.html)
 1. To download BRO/ZEEK, we must install the required dependencies: 
     - To compile source coude on MAC, we need to install XCODE: `xcode-select -p`.
@@ -28,11 +29,6 @@ Let's take a note of the following comment "Ensure MongoDB is running before run
 - `mongod --config /usr/local/etc/mongod.conf`
 - `Mongo`
 
----
-
-### [Download RITA](https://github.com/activecm/rita/blob/master/docs/Manual%20Installation.md):
-For this tutorial, we are going to practice installing RITA manually to strengthen our operations within the DevSecOps Curriculum. In the directions, it says that in order to compile RITA, we need to install both Golang and Dep.
-
 #### [Download Golang](https://golang.org/doc/install)
 1. To download Golang, download the [binary file](https://golang.org/dl/). 
     - If installed, the package will be put in     `/usr/local/go/bin`. You can find `/usr` by typing `cd ..` and `ls` in the terminal window until you see the `usr` folder. To check if installed type `ls /usr/local/go/bin` and you will see *go*.
@@ -45,4 +41,9 @@ For this tutorial, we are going to practice installing RITA manually to strength
 1. Follow the simple instructions:
     - `brew install dep`
     - `brew upgrade dep`
+
+---
+
+### [Download RITA](https://github.com/activecm/rita/blob/master/docs/Manual%20Installation.md):
+For this tutorial, we are going to practice installing RITA manually to strengthen our operations within the DevSecOps Curriculum.
 
