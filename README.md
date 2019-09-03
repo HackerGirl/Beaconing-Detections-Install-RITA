@@ -34,5 +34,5 @@ Let's take a note of the following comment "Ensure MongoDB is running before run
 For this tutorial, we are going to practice installing RITA manually to strengthen our operations within the DevSecOps Curriculum. In the directions, it says that in order to compile RITA, we need to install both Golang and Dep.
 
 #### [Download Golang](https://golang.org/doc/install)
-1. To download Golang, download the [binary files](https://golang.org/dl/)
+1. To download Golang, download the [binary file](https://golang.org/dl/). If installed, the package will be put in '/usr/local/go'. You can find `/usr` by typing `cd ..` and `ls` in the terminal window until you see the `usr` folder. 
 
