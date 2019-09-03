@@ -19,7 +19,9 @@ In order for RITA to work, we must first install BRO/ZEEK and MongoDB. Open up y
     - `make install`
     - If you run into any administrative issues, run the command `sudo make` or `sudo make install`. By using `sudo` you are forcing the ability of running commands at the root level of your computer's operating system. 
 
-#### [Download MongoDB](https://docs.mongodb.com/v3.6/administration/install-community/)
+#### [Download MongoDB 3.6](https://docs.mongodb.com/v3.6/administration/install-community/)
 Note that RITA reccomends using "MongoDB version is 3.6, but anything >= 3.2.0 and < 3.7.0 should work." To install MongoDB 3.6 follow these [installation instructions](https://docs.mongodb.com/v3.6/administration/install-community/). Now if you have MongoDB 4.2 installed, you have to follow these [downgrade instructions](https://docs.mongodb.com/manual/release-notes/4.0-downgrade-standalone/). 
-
-    
+1. To download MongoDB 3.6, we must install the required dependencies:
+    - To add the MongoDB formula repository: `brew tap mongodb/brew`.
+2. To download MongoDB 3.6:
+    - `brew install mongodb-community@3.6`.    
