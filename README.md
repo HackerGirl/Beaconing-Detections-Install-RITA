@@ -67,6 +67,8 @@ Finally, in your github account on the top right, click on your icon and go into
 ### [Download RITA](https://github.com/activecm/rita/blob/master/docs/Manual%20Installation.md):
 At this point, we are now ready to build RITA! For this tutorial, we are going to practice installing RITA manually to strengthen our operations within the DevSecOps Curriculum. Under *Building RITA*, we follow the instructions. 
 - `git clone git@github.com:activecm/rita.git`
-- 
+- `cd go/src/github.com/activecm/rita`
+- `sudo make install`
+
 
 
