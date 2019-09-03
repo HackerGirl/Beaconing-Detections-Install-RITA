@@ -36,4 +36,6 @@ For this tutorial, we are going to practice installing RITA manually to strength
 #### [Download Golang](https://golang.org/doc/install)
 1. To download Golang, download the [binary file](https://golang.org/dl/). If installed, the package will be put in     `/usr/local/go/bin`. You can find `/usr` by typing `cd ..` and `ls` in the terminal window until you see the `usr` folder. To check if installed type `ls /usr/local/go/bin` and you will see `go`.
 2. Once installed, follow the instructions under *Installing Golang* within the [Install Rita Manually Documentation](https://github.com/activecm/rita/blob/master/docs/Manual%20Installation.md). 
+    - create a local GO development environment: `mkdir -p $HOME/go/{src,pkg,bin}`
+    - add command lines into your *.bashrc* file as described in step 3. To check if the command lines have been added, type `vim .bashrc` to open up the file. If done properly, you should see `export GOPATH="$HOME/go"` and `export PATH="$PATH:$GOPATH/bin"` within the file. To exit, type `:exit`. 
 
