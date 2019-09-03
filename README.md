@@ -72,5 +72,4 @@ At this point, we are now ready to build RITA! For this tutorial, we are going t
 - `cd go/src/github.com/activecm/rita`
 - `sudo make install`
 
-
-
+#### Configuring the System
