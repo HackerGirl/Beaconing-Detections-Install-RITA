@@ -6,7 +6,7 @@ This file contains directions for how to [manually install RITA](https://github.
 ---
 
 ### Download Dependencies:
-In order for RITA to work, we must first install BRO/ZEEK and MongoDB V3.6. Then for RITA to compile, we have to install Golang and Dep. Open up your terminal window. 
+In order for RITA to work, we must first install BRO/ZEEK and MongoDB V3.6. Then for RITA to compile, we have to install Golang and Dep. Finally, we will need to create public/private SSH keys to download RITA from Github. Open up your terminal window. 
 
 #### [Download BRO/ZEEK](https://docs.zeek.org/en/stable/install/install.html)
 1. To download BRO/ZEEK, we must install the required dependencies: 
@@ -42,8 +42,13 @@ Let's take a note of the following comment "Ensure MongoDB is running before run
     - `brew install dep`
     - `brew upgrade dep`
 
+#### Generate Public/Private SSH Keys
+1. 
+
+
 ---
 
 ### [Download RITA](https://github.com/activecm/rita/blob/master/docs/Manual%20Installation.md):
-For this tutorial, we are going to practice installing RITA manually to strengthen our operations within the DevSecOps Curriculum.
+At this point, we are now ready to build RITA! For this tutorial, we are going to practice installing RITA manually to strengthen our operations within the DevSecOps Curriculum. Under *Building RITA*, we follow the instructions. 
+
 
