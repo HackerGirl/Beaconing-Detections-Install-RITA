@@ -6,7 +6,9 @@ This file contains directions for how to [manually install RITA](https://github.
 ---
 
 ### Download Dependencies:
-In order for RITA to work, we must first install BRO/ZEEK and MongoDB V3.6. Then for RITA to compile, we have to install Golang and Dep. Finally, we will need to create public/private SSH keys to download RITA from Github. Open up your terminal window. 
+In order for RITA to work, we must first install BRO/ZEEK and MongoDB V3.6. Then for RITA to compile, we have to install Golang and Dep. Finally, we will need to create public/private SSH keys to download RITA from Github. 
+
+Open up your terminal window. 
 
 #### [Download BRO/ZEEK](https://docs.zeek.org/en/stable/install/install.html)
 1. To download BRO/ZEEK, we must install the required dependencies: 
