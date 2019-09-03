@@ -30,5 +30,5 @@ Let's take a note of the following comment "Ensure MongoDB is running before run
 
 ---
 
-### Download RITA:
+### [Download RITA](https://github.com/activecm/rita/blob/master/docs/Manual%20Installation.md):
 For this tutorial, we are going to practice installing RITA manually to strengthen our operations within the DevSecOps Curriculum. In the directions, it says that in order to compile RITA, we need to install both Golang and Dep.
