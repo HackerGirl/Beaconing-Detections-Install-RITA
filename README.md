@@ -76,4 +76,4 @@ At this point, we are now ready to build RITA! For this tutorial, we are going t
 - `sudo mkdir /etc/rita && sudo chmod 755 /etc/rita`
 - `sudo mkdir -p /var/lib/rita/logs && sudo chmod -R 755 /var/lib/rita`
 - `sudo cp Users/cshourabour/go/src/github.com/activecm/rita/etc/rita.yaml /etc/rita/config.yaml && sudo chmod 666 /etc/rita/config.yaml` 
-Note that above, I saved `go` within my home computers directory but the folder `etc`is at my top level directory. So 
+    - With the line above, in the directions, you will see it should have been `sudo cp $GOPATH/src/github.com/activecm/rita/etc/rita.yaml /etc/rita/config.yaml && sudo chmod 666 /etc/rita/config.yaml`. But if this command provides a *file not found* error, then this is where you have to know where you have downladed 'go'. For me, `go` was downloaded in my `Users/cshourabour/` directory, aka `Users/[your computer login username]`. So above when we were installing `go` and in the *.bashrc* file put `echo 'export GOPATH="$HOME/go"' >> $HOME/.bashrc`, for me, this should have been `echo 'export GOPATH="$Users/cshourabour/go"' >> $HOME/.bashrc`.
