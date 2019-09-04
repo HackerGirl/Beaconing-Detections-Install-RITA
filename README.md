@@ -85,3 +85,4 @@ At this point, we are now ready to build RITA! For this tutorial, we are going t
 ### [Configure RITA](https://github.com/activecm/rita)
 Turning back to the repository, now that we have RITA successfully installed, we now have to configure the file. Reading the repository, we see that RITA's config file is located at `/etc/rita/config.yaml`. 
 1. Navigate to `/etc/rita/` and `vim config.yaml` to edit the file. For me, `/etc/rita/` is located at the very top of my directory. 
+2. Press `i` and scroll down with your down arrow key until you find the `Filtering` section. Uncomment the `#` under the InternalSubnets section and press `:exit` when done. `:exit` will automatically save your edits.  
