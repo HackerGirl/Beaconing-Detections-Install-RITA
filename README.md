@@ -82,5 +82,5 @@ At this point, we are now ready to build RITA! For this tutorial, we are going t
   
 ---
 
-### Configure RITA
-
+### [Configure RITA](https://github.com/activecm/rita)
+Turning back to the repository, now that we have RITA successfully installed, we now have to configure the file. Reading the repository, we see that RITA's config file is located at `/etc/rita/config.yaml`. 
